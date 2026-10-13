@@ -1,0 +1,4 @@
+Age = 67
+Has_pasport = False
+is_banned = True
+print(Age>50 and Has_pasport and not is_banned)
