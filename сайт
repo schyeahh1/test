@@ -1,0 +1,11 @@
+correct_login = "admin"
+correct_password = "1234"
+login = input("введите логин ")
+password = input("введите пароль ")
+if login == correct_login:
+    if password == correct_password:
+        print("добро пожаловать")
+    else:
+        print("неверный пароль")
+else:
+    print("пользователь не найден")
